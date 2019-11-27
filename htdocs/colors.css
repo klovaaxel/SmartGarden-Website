@@ -1,0 +1,55 @@
+body{
+  background-color: #f9f9ff;
+}
+section{
+  background-color: #f9f9ff;
+}
+footer{
+  color: #f9f9ff;
+  background-color: #61615B;
+}
+header:nth-of-type(1){
+  background: #f9f9ff;
+}
+
+
+.slideritem{
+  transition: all .2s ease-in-out;
+  transform: scale(.9);
+}
+.slideritem:hover{
+  transform: scale(1);
+}
+.subscriptionsbg{
+  background-image: url("resources/images/wood.jpg");
+  background-size:cover;
+}
+.menu{
+  background-color: #ffffff;
+}
+.navbar{
+  background-color: #ffffff;
+}
+.title{
+  background-image: url("resources/images/backtest2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
+  -webkit-box-shadow: inset 7px -10px 75px 12px rgba(97,97,91,1);
+  -moz-box-shadow: inset 7px -10px 75px 12px rgba(97,97,91,1);
+  box-shadow: inset 7px -10px 75px 12px rgba(97,97,91,1);
+}
+.btn {
+  background-color: #41AB9E !important;
+  border-color: #41AB9E !important;
+  color: black;
+}
+.nav-item{
+  background-color: #fff;
+}
+.nav-item:hover{
+  background-color: #429171 !important;
+  color: black;
+}

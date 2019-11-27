@@ -1,0 +1,120 @@
+h1{
+  font-family: Bell-MT;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  text-shadow: 12px 12px 12px rgba(97,97,91,1);
+}
+h2{
+  font-family: Bell-MT;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #C2AB4F;
+}
+h3{
+  font-family: Bell-MT;
+  margin: 50px;
+  padding-top: 2%;
+  text-decoration: underline;
+  text-decoration-color: #C2AB4F;
+}
+a p{
+  text-align: center;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.navbar-nav .active{
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.underline{
+  margin: 0 5% 0 5%;
+  border-bottom: .065em solid #C2AB4F;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2em;
+    letter-spacing: .25em;
+    word-spacing: .4em;
+  }
+  h2{
+    font-size: 1.5em
+  }
+  h3{
+    font-size: 1em;
+  }
+  p{
+    font-family: Bell-MT;
+    font-size: 1.3em;
+    margin: 2%;
+  }
+  small{
+    font-size: 1em;
+    padding-bottom: .5em;
+  }
+  .navbar-brand{
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 7em;
+    letter-spacing: .25em;
+    word-spacing: .4em;
+  }
+  h2{
+    font-size: 6em
+  }
+  h3{
+    font-size: 4em;
+  }
+  p{
+    font-family: Bell-MT;
+    font-size: 2em;
+    margin: 7%;
+  }
+  small{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+  }
+  .navbar-brand{
+  }
+}
+@media (min-width: 3024px) {
+  h1 {
+    font-size: 20em;
+    letter-spacing: .25em;
+    word-spacing: .4em;
+  }
+  h2{
+    font-size: 17em;
+  }
+  h3{
+    font-size: 15em;
+  }
+  p{
+    font-family: Bell-MT;
+    font-size: 6em;
+    margin: 7%;
+  }
+  small{
+    font-size: 4em;
+    padding-bottom: 2em;
+  }
+  input{
+    min-height: 8em;
+  }
+  input::placeholder{
+    font-size: 6em;
+  }
+  .btn, .nav-link{
+    font-size: 4em;
+  }
+  .nav-item, .navbar-brand{
+    padding: .5em 2em;
+
+  }
+}

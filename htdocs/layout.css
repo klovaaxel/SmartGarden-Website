@@ -1,0 +1,90 @@
+body{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+article{
+  width: 100%;
+  padding: 0 !important;
+}
+col-sm{
+  padding: 0 !important;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+footer div {
+  width: 360px;
+  margin: 0 auto;
+}
+
+}
+img{
+  display: inline;
+}
+section{
+  padding-top:3em;
+  padding-bottom: 3em;
+}
+form{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+.row{
+  margin: 0 auto !important;
+}
+.title{
+  padding-top: 15%;
+  padding-bottom:15%;
+}
+.btn{
+  border-radius: 0;
+}
+
+
+.card-deck {
+  margin:0 !important;
+}
+
+
+/*Sliders*/
+
+.carousel{
+  width: 100%;
+}
+
+
+/*Slick Sliders custom CSS*/
+.custom-select {
+  display: inline;
+}
+.slider {
+    width: 80%;
+    margin: 0 auto;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1;
+}
+.slick-active {
+  opacity: 1;
+}
+.slick-current {
+  opacity: 1;
+}
