@@ -24,12 +24,18 @@ header:nth-of-type(1){
   background-image: url("resources/images/wood.jpg");
   background-size:cover;
 }
+/*
 .menu{
-  background-color: #ffffff;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
 }
 .navbar{
-  background-color: #ffffff;
+  background-color: transparent;
 }
+*/
+
+
+
 .title{
   background-image: url("resources/images/plantgreen.jpg");
   background-attachment: fixed;
@@ -46,10 +52,23 @@ header:nth-of-type(1){
   border-color: #41AB9E !important;
   color: black;
 }
+
+/*
 .nav-item{
-  background-color: #fff;
+  background-color: transparent;
 }
+*/
 .nav-item:hover{
   background-color: #00b195 !important;
   color: black;
 }
+
+@media (min-width: 992px)
+.menu .nav-item .navbar {
+    background-color: #fff;
+}
+
+@media (min-width: 992px)
+.menu {
+    background-color: transparent;
+    transition: background-color .3s ease-in-out;
