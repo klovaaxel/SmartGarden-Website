@@ -31,7 +31,7 @@ header:nth-of-type(1){
   background-color: #ffffff;
 }
 .title{
-  background-image: url("resources/images/backtest2.jpg");
+  background-image: url("resources/images/plantgreen.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
@@ -50,6 +50,6 @@ header:nth-of-type(1){
   background-color: #fff;
 }
 .nav-item:hover{
-  background-color: #429171 !important;
+  background-color: #00b195 !important;
   color: black;
 }
