@@ -3,11 +3,30 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
+.masthead h1 {
+      -webkit-text-fill-color: #e9ecef;
+      text-shadow: 2px 2px black;
+}
 
+.text-white-50 {
+  font-size: ;
+  font-weight: bold;
+    color:white !important;
+     text-shadow: 2.5px 2.5px black;
+
+}
 
 #mainNav {
   min-height: 56px;
   background-color: #fff;
+}
+
+img {
+    vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.7);
+
+
+
 }
 
 #mainNav .navbar-toggler {
