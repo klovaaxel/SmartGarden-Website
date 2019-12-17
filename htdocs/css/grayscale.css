@@ -325,3 +325,9 @@ footer {
   border-bottom-right-radius: .25rem !important;
   border-bottom-left-radius: .25rem !important;
 }
+.navtext{
+  background-color: green;
+}
+nav#mainNav{
+      backdrop-filter: brightness(60%);
+}
