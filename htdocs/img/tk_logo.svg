@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 109.43431 89.99976"
+   version="1.1"
+   sodipodi:docname="tk_logo.svg"
+   inkscape:version="0.92.1 r15371">
+  <svg:metadata
+     id="metadata6570">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     id="namedview6568"
+     showgrid="false"
+     inkscape:zoom="5.2444582"
+     inkscape:cx="41.298579"
+     inkscape:cy="48.048299"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <link
+     type="text/css"
+     id="dark-mode"
+     rel="stylesheet"
+     href="" />
+  <style
+     type="text/css"
+     id="dark-mode-custom-style" />
+  <svg:defs
+     id="defs6519">
+    <svg:style
+       id="style6514">.cls-1{fill:none;}.cls-2{fill:#386c9e;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:#cf8a00;}</svg:style>
+    <svg:clipPath
+       id="clip-path"
+       transform="translate(-0.44553 0.00024)">
+      <svg:rect
+         class="cls-1"
+         x="0.44553"
+         width="109.43469"
+         height="90"
+         id="rect6516" />
+    </svg:clipPath>
+  </svg:defs>
+  <svg:title
+     id="title6521">tk_logo</svg:title>
+  <svg:polygon
+     class="cls-2"
+     points="0,48.726 5.349,48.726 5.349,65.223 10.463,65.223 10.463,48.726 15.81,48.726 15.81,44.758 0,44.758 "
+     id="polygon6523"
+     transform="matrix(0.76030342,0,0,0.76030342,13.115478,10.786346)"
+     style="fill:#386c9e" />
+  <svg:polygon
+     class="cls-2"
+     points="18.44,44.758 33.502,44.758 33.502,48.726 23.556,48.726 23.556,52.464 32.841,52.464 32.841,56.427 23.556,56.427 23.556,61.257 34.367,61.257 34.367,65.223 18.44,65.223 "
+     id="polygon6525"
+     transform="matrix(0.76030342,0,0,0.76030342,13.115478,10.786346)"
+     style="fill:#386c9e" />
+  <svg:polygon
+     class="cls-2"
+     points="42.418,44.758 42.418,52.922 49.752,44.758 56.536,44.758 49.091,52.519 56.764,65.223 51.073,65.223 45.497,56.141 42.418,59.273 42.418,65.223 37.303,65.223 37.303,44.758 "
+     id="polygon6527"
+     transform="matrix(0.76030342,0,0,0.76030342,13.115478,10.786346)"
+     style="fill:#386c9e" />
+  <svg:polygon
+     class="cls-2"
+     points="64.02,44.758 71.464,57.837 71.523,57.837 71.523,44.758 76.18,44.758 76.18,65.223 71.062,65.223 63.559,52.346 63.502,52.346 63.502,65.223 58.845,65.223 58.845,44.758 "
+     id="polygon6529"
+     transform="matrix(0.76030342,0,0,0.76030342,13.115478,10.786346)"
+     style="fill:#386c9e" />
+  <svg:rect
+     class="cls-2"
+     x="74.345818"
+     y="44.815796"
+     width="3.8915446"
+     height="15.559563"
+     id="rect6531"
+     style="fill:#386c9e;stroke-width:0.76030344" />
+  <svg:polygon
+     class="cls-2"
+     points="95.095,52.923 95.095,44.761 89.978,44.761 89.978,65.22 95.095,65.22 95.095,59.271 98.168,56.14 103.743,65.22 109.434,65.22 101.763,52.52 109.203,44.761 102.423,44.761 "
+     id="polygon6533"
+     transform="matrix(0.76030342,0,0,0.76030342,13.115478,10.786346)"
+     style="fill:#386c9e" />
+  <svg:g
+     class="cls-3"
+     clip-path="url(#clip-path)"
+     id="g6565"
+     transform="matrix(0.76030342,0,0,0.76030342,13.115478,10.786346)">
+    <svg:path
+       class="cls-4"
+       d="m 16.87963,74.039 a 8.55017,8.55017 0 0 0 -6.09595,-2.65173 8.27417,8.27417 0 0 0 0.05269,16.544 8.74459,8.74459 0 0 0 6.04326,-2.65215 V 88.037 a 10.29413,10.29413 0 0 1 -5.9636,1.96215 10.34022,10.34022 0 1 1 0,-20.67987 9.65,9.65 0 0 1 5.9636,1.96049 z"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6535"
+       inkscape:connector-curvature="0"
+       style="fill:#cf8a00" />
+    <svg:path
+       class="cls-4"
+       d="M 40.47723,79.68552 A 10.41953,10.41953 0 1 1 30.057,69.31965 10.36509,10.36509 0 0 1 40.47723,79.68552 M 21.86531,79.659 a 8.19148,8.19148 0 1 0 8.1917,-8.2726 8.26579,8.26579 0 0 0 -8.1917,8.2726"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6537"
+       inkscape:connector-curvature="0"
+       style="fill:#cf8a00" />
+    <svg:polygon
+       class="cls-4"
+       points="50.793,87.585 50.793,89.653 43.051,89.653 43.051,69.665 45.279,69.665 45.279,87.585 "
+       id="polygon6539"
+       style="fill:#cf8a00" />
+    <svg:polygon
+       class="cls-4"
+       points="60.737,87.585 60.737,89.653 52.993,89.653 52.993,69.665 55.22,69.665 55.22,87.585 "
+       id="polygon6541"
+       style="fill:#cf8a00" />
+    <svg:polygon
+       class="cls-4"
+       points="73.3,69.666 73.3,71.732 65.161,71.732 65.161,77.672 73.063,77.672 73.063,79.74 65.161,79.74 65.161,87.586 73.3,87.586 73.3,89.654 62.934,89.654 62.934,69.666 "
+       id="polygon6543"
+       style="fill:#cf8a00" />
+    <svg:path
+       class="cls-4"
+       d="m 96.12142,79.60589 c 0.05392,2.70194 -0.23859,4.9317 -2.06795,7.0511 a 9.86888,9.86888 0 0 1 -7.3959,3.34215 10.34058,10.34058 0 1 1 8.59043,-16.35685 l -1.61817,1.50989 a 8.13052,8.13052 0 0 0 -6.866,-3.7662 8.29658,8.29658 0 0 0 -8.16556,8.35352 8.05745,8.05745 0 0 0 2.331,5.64577 8.41213,8.41213 0 0 0 5.67565,2.54634 c 3.472,0 7.13035,-2.54634 7.13035,-6.25819 h -5.93875 v -2.06753 z"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6545"
+       inkscape:connector-curvature="0"
+       style="fill:#cf8a00" />
+    <svg:polygon
+       class="cls-4"
+       points="109.196,69.666 109.196,71.732 101.057,71.732 101.057,77.672 108.958,77.672 108.958,79.74 101.057,79.74 101.057,87.586 109.196,87.586 109.196,89.654 98.831,89.654 98.831,69.666 "
+       id="polygon6547"
+       style="fill:#cf8a00" />
+    <svg:rect
+       class="cls-4"
+       x="44.045071"
+       y="33.884418"
+       width="21.64039"
+       height="6.3233299"
+       id="rect6549"
+       style="fill:#cf8a00" />
+    <svg:path
+       class="cls-2"
+       d="m 59.58473,4.27216 a 4.27386,4.27386 0 1 1 -4.27531,-4.2724 4.27385,4.27385 0 0 1 4.27531,4.2724"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6551"
+       inkscape:connector-curvature="0"
+       style="fill:#386c9e" />
+    <svg:path
+       class="cls-2"
+       d="M 65.72665,17.84807 A 13.77163,13.77163 0 0 0 55.31888,22.579 V 22.564 A 13.8248,13.8248 0 0 0 33.9042,40.03118 h 7.16312 a 9.21631,9.21631 0 0 1 3.82885,-17.59994 9.09035,9.09035 0 0 1 8.20291,5.013 c 1.21321,2.185 1.89741,3.64172 2.2086,4.34749 v 0.0444 c 0.30828,-0.69706 0.99455,-2.16379 2.21856,-4.36991 a 9.085,9.085 0 0 1 8.20041,-5.00845 9.21576,9.21576 0 0 1 3.833,17.59827 h 7.15981 a 13.82312,13.82312 0 0 0 -10.9928,-22.208"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6553"
+       inkscape:connector-curvature="0"
+       style="fill:#386c9e" />
+    <svg:path
+       class="cls-2"
+       d="m 35.60536,17.33062 a 4.27364,4.27364 0 1 1 -4.27364,-4.27529 4.271,4.271 0 0 1 4.27364,4.27529"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6555"
+       inkscape:connector-curvature="0"
+       style="fill:#386c9e" />
+    <svg:path
+       class="cls-2"
+       d="M 83.63189,17.33062 A 4.27531,4.27531 0 1 1 79.357,13.05533 4.27235,4.27235 0 0 1 83.63189,17.33062"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6557"
+       inkscape:connector-curvature="0"
+       style="fill:#386c9e" />
+    <svg:path
+       class="cls-2"
+       d="m 66.09464,20.60137 a 9.15125,9.15125 0 0 0 -2.16379,0.25642 9.21441,9.21441 0 0 1 -4.06868,11.28035 h 6.71211 A 13.73591,13.73591 0 0 0 69.13722,24.1236 13.98625,13.98625 0 0 0 68.7804,20.99886 9.23041,9.23041 0 0 0 66.09464,20.60137"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6559"
+       inkscape:connector-curvature="0"
+       style="fill:#386c9e" />
+    <svg:path
+       class="cls-2"
+       d="m 44.72182,15.99082 a 13.8143,13.8143 0 0 1 4.891,0.89374 9.20652,9.20652 0 0 1 11.46041,0.04729 13.80789,13.80789 0 0 1 5.02133,-0.941 c 0.13692,0 0.26762,0.0083 0.40288,0.01246 a 13.81835,13.81835 0 0 0 -22.37521,0.0041 c 0.19957,-0.0083 0.4,-0.0166 0.59955,-0.0166"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6561"
+       inkscape:connector-curvature="0"
+       style="fill:#386c9e" />
+    <svg:path
+       class="cls-2"
+       d="m 46.09512,24.12409 a 9.22535,9.22535 0 0 1 0.61781,-3.32016 9.64147,9.64147 0 0 0 -1.99119,-0.20206 9.21888,9.21888 0 0 0 -2.89072,0.463 13.79571,13.79571 0 0 0 2.21981,11.07413 h 6.71252 a 9.21441,9.21441 0 0 1 -4.66823,-8.015"
+       transform="translate(-0.44553,2.4e-4)"
+       id="path6563"
+       inkscape:connector-curvature="0"
+       style="fill:#386c9e" />
+  </svg:g>
+</svg:svg>
