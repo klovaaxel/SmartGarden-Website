@@ -11,36 +11,26 @@
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
 
 
-    <script type = "text/javascript" language = "javascript">
+    <script type = "text/javascript" language = "javascript"> //mqtt script
       //mqtt variables
       var mqtt;
       var reconnectTimeout = 2000; //time between reconnects
       var host="mqtt.dioty.co"; //broker
       var port=8080; // websocket for browser compatability
 
-      var subbedTopics = []; // array for storring subbed topics in local storage
+      var subbedTopics = [];
 
 
 
       function onConnect() {  //on sucsefull connect to MQTT Broker
         console.log("connected to "+ host +" "+ port);   //logs the Successful connection
 
-        if(localStorage.getItem('mem')){ //checks if local storage is empty
+        if(localStorage.getItem('mem') != "undefined"){ //checks if local storage is empty
           document.getElementById("main-container").innerHTML = localStorage.getItem('mem'); //gets html layout from storage if not empty
           console.log("Got layout from mem"); //logs that layout was taken from mem
         }
-
-        if(localStorage.getItem('memSub')){ //checks if local storage for subbedTopics is something
-
-          subbedTopics = localStorage.getItem('memSub').split(","); //makes the current subbedTopics array contain the topics saved in localStorage
-          console.log(subbedTopics); //logs the topics that are now stored as an array in subbedTopics
-
-          for (var i = 0; i < subbedTopics.length; i++) { // a for loop to subb to all the topics that are saved in localStorage
-            mqtt.subscribe(subbedTopics[i]); //subs to topic in arry
-            console.log(subbedTopics[i]); // logs the subbsription
-          }
-
-
+        if(localStorage.getItem('memSub') != "undefined"){
+          
         }
 
       }
@@ -89,49 +79,37 @@
         console.log("named sensor " + sensNum + " to " + sensName); //logs the console
 
         mqtt.subscribe("/klovakarlsson@gmail.com/" + sensName);//subscribes to the sensors new channel
-        subbedTopics.push("/klovakarlsson@gmail.com/" + sensName)//saves the subcription in subbedTopics array
+        var subbedTopics += "/klovakarlsson@gmail.com/" + sensName;
 
 
         //check wich sensor it is (sens num)
-        if (sensNum > 01000 && sensNum < 02000) { //checks if the sens number is in the specified range
-          if(sensNum > 02000){  //checks if the sens number si that of a pump
-            mqtt.subscribe("/klovakarlsson@gmail.com/" + sensName + "/pmp");//subscribes to the sensors new channel
-            subbedTopics.push("/klovakarlsson@gmail.com/" + sensName + "/pmp"); //saves the subcription in subbedTopics array
+        if(sensNum > 02000){
+          mqtt.subscribe("/klovakarlsson@gmail.com/" + sensName + "/pmp");//subscribes to the sensors new channel
+          var subbedTopics += "/klovakarlsson@gmail.com/" + sensName + "/pmp";
 
-            console.log("sensor is a pump"); // logs that the sensor is a pump
+          console.log("sens is pump");
 
-            document.getElementById("addSensID").className = "sensor pump"; //changes the class for the newSens form
-            document.getElementById('addSensID').innerHTML = '<p id="/klovakarlsson@gmail.com/' + sensName  + '/pmp" style="display: inline;">Hello</p>'; //changes the html inside the addSensor form to make it a sensor block
-            document.getElementById("addSensID").id = "none"; //changes the id for the newSens form
+          document.getElementById("addSensID").className = "sensor pump"; //changes the class for the newSens form
+          document.getElementById('addSensID').innerHTML = '<p id="/klovakarlsson@gmail.com/' + sensName  + '/pmp" style="display: inline;">Hello</p>'; //changes the html inside the addSensor form to make it a sensor block
+          document.getElementById("addSensID").id = "none"; //changes the id for the newSens form
 
-          }else if (sensNum < 02000) { //checks if the sens number is that of a temp/moist sens
-            mqtt.subscribe("/klovakarlsson@gmail.com/" + sensName + "/temp");//subscribes to the sensors  channel
-            subbedTopics.push("/klovakarlsson@gmail.com/" + sensName + "/temp"); //saves the subcription in subbedTopics array
-            mqtt.subscribe("/klovakarlsson@gmail.com/" + sensName + "/moist");//subscribes to the sensors  channel
-            subbedTopics.push("/klovakarlsson@gmail.com/" + sensName + "/moist") //saves the subcription in subbedTopics array
+        }else if (sensNum < 02000) {
+          mqtt.subscribe("/klovakarlsson@gmail.com/" + sensName + "/temp");//subscribes to the sensors new channel
+          var subbedTopics += "/klovakarlsson@gmail.com/" + sensName + "/temp";
+          mqtt.subscribe("/klovakarlsson@gmail.com/" + sensName + "/moist");//subscribes to the sensors new channel
+          var subbedTopics += "/klovakarlsson@gmail.com/" + sensName + "/moist";
 
-            console.log("sensor is a moisture/temperature sensor");// logs that sensor is a moisture/temperature sensor
+          console.log("sens is sens");
 
-            document.getElementById("addSensID").className = "sensor tempmoist"; //changes the class for the newSens form
-            document.getElementById('addSensID').innerHTML = '<p id="/klovakarlsson@gmail.com/' + sensName  + '/temp" style="display: inline;">Hello</p><p id="/klovakarlsson@gmail.com/' + sensName  + '/moist" style="display: inline;">Hello</p>'; //changes the html inside the addSensor form to make it a sensor block
-            document.getElementById("addSensID").id = "none"; //changes the id for the newSens form
+          document.getElementById("addSensID").className = "sensor tempmoist"; //changes the class for the newSens form
+          document.getElementById('addSensID').innerHTML = '<p id="/klovakarlsson@gmail.com/' + sensName  + '/temp" style="display: inline;">Hello</p><p id="/klovakarlsson@gmail.com/' + sensName  + '/moist" style="display: inline;">Hello</p>'; //changes the html inside the addSensor form to make it a sensor block
+          document.getElementById("addSensID").id = "none"; //changes the id for the newSens form
 
-          }
-
-          localStorage.setItem('mem', document.getElementById('main-container').innerHTML); //saves the current layout in localStorage
-          localStorage.setItem('memSub', subbedTopics); //saves the current subbedTopics in localStorage
-          console.log("saved html, mqtt and js in local"); // log message about saving html and mqtt in localStorage
         }
 
+        localStorage.setItem('mem', document.getElementById('main-container').innerHTML); //saves the current layout and js
+        localStorage.setItem('memSub', subbedTopics); //saves the current layout and js
 
-      }
-
-      function sensMenu() {
-        //bring up hmtl buttnons for removing the widget
-      }
-
-      function rmvSens(){ //called when delete button pressed in sesnmenu
-        //delete parrent hmtl object
       }
 
     </script>
@@ -146,16 +124,13 @@
       <div class="container" id="main-container">
 
         <!--
-          --Template for Sensor block  --
-        <span onclick="sensMenu()" class="sensor temp">
+        <span class="sensor temp">
           <p id="temp1" style="display: inline;"> 0</p>
         </span>
-
-        <span onclick="sensMenu()" class="sensor moist">
+        <span class="sensor moist">
           <p id="temp2" style="display: inline;"> 0%</p>
         </span>
 
-          --Template for adding sensor form--
         <span id="t" class="sensor t">
           <input type="text" name="sensNumForm" id="sensNumID" value="" placeholder="Number printed on sensor" />
           <input type="text" name="sensNameForm" id="sensNameID" value="" placeholder="the name your sensor" />
