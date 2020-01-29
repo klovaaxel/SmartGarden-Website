@@ -15,10 +15,43 @@ h1 {
   text-align: center;
 }
 
-.sensor-app {
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 3em 0;
+  width: 100%;
+}
 
+.sensor-box {
+ background: white;
+ padding: 10px;
+ flex-grow: 100;
+ margin: 3vw;
+ min-width: 40%;
+ border-radius: 10px;
 }
 
 .sensor-name {
-  
+ margin: 10px;
+ background: lightgreen;
+ position: relative;
+ top: -35px;
+ padding: 7px;
+ width: 65%;
+}
+
+.sensor-varde{
+  margin: 10px 0;
+  background: pink;
+  padding: 10px;
+}
+
+p {
+  border-radius: 10px;
+}
+
+span {
+  float: right;
 }
