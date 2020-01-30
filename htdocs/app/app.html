@@ -74,7 +74,7 @@
       function addNewSensor(){
         //creates a html input and submit form with two inputs with the id sensnumID and sensNameID (sensNum and sensName)
         //submit btn calls connectNewSensor()
-        document.getElementById('main-container').innerHTML += '<span id="addSensID" class="sensor t"> <input type="text" name="sensNumForm" id="sensNumID" value="" placeholder="Number printed on sensor" /> <input type="text" name="sensNameForm" id="sensNameID" value="" placeholder="the name your sensor" /> <button onclick="connectNewSensor()">Add Sensor</button> </span>';
+        document.getElementById('main-container').innerHTML += '<div class="sensor-add-box"><span id="addSensID" class="sensor-add">  <button class="btn-close"> X </button> <input type="text" name="sensNumForm" id="sensNumID" value="" placeholder="Number printed on sensor" /> <input type="text" name="sensNameForm" id="sensNameID" value="" placeholder="the name your sensor" /> <button class="btn-add" onclick="connectNewSensor()">Add Sensor</button> </span></div>';
 
 
       }
@@ -147,19 +147,19 @@
 
         <div class="sensor-box">
               <p class="sensor-name"> Namn på sensor </p>
-              <p class="sensor-varde"> fuktighet <span>14%</span> </p>
-              <p class="sensor-varde"> temperature <span>14</span> </p>
+              <p class="sensor-varde"> fuktighet <span class="varde">14%</span> </p>
+              <p class="sensor-varde"> temperature <span class="varde">14</span> </p>
         </div>
 
         <div class="sensor-box">
               <p class="sensor-name"> Namn på sensor </p>
-              <p class="sensor-varde"> fuktighet <span>14%</span> </p>
-              <p class="sensor-varde"> temperature <span>14</span> </p>
+              <p class="sensor-varde"> fuktighet <span class="varde">14%</span> </p>
+              <p class="sensor-varde"> temperature <span class="varde">14</span> </p>
         </div>
         <div class="sensor-box">
               <p class="sensor-name"> Namn på sensor </p>
-              <p class="sensor-varde"> fuktighet <span>14%</span> </p>
-              <p class="sensor-varde"> temperature <span>14</span> </p>
+              <p class="sensor-varde"> fuktighet <span class="varde">14%</span> </p>
+              <p class="sensor-varde"> temperature <span class="varde">14</span> </p>
         </div>
 
 
@@ -174,14 +174,14 @@
         </span>
 
           --Template for adding sensor form--
-        <span id="t" class="sensor t">
+        <span id="t" class="sensor-add">
           <input type="text" name="sensNumForm" id="sensNumID" value="" placeholder="Number printed on sensor" />
           <input type="text" name="sensNameForm" id="sensNameID" value="" placeholder="the name your sensor" />
 
           <button onclick="connectNewSensor()">Add Sensor</button>
         </span>
 
-        <span id="t" class="sensor t"> <input type="text" name="sensNumForm" id="sensNumID" value="" placeholder="Number printed on sensor" /> <input type="text" name="sensNameForm" id="sensNameID" value="" placeholder="the name your sensor" /> <button onclick="connectNewSensor()">Add Sensor</button> </span>
+        <span id="t" class="sensor-add"> <input type="text" name="sensNumForm" id="sensNumID" value="" placeholder="Number printed on sensor" /> <input type="text" name="sensNameForm" id="sensNameID" value="" placeholder="the name your sensor" /> <button onclick="connectNewSensor()">Add Sensor</button> </span>
 
       -->
 
