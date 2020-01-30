@@ -4,6 +4,10 @@ body {
   background: lightgrey;
   min-height: 100vh;
   background-image: url(bak.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
 }
 
 header {
@@ -32,6 +36,7 @@ h1 {
  flex-grow: 100;
  margin: 3vw;
  min-width: 40%;
+ max-width: 700px;
  border-radius: 10px;
  border: 2px solid #00000075;
 }
