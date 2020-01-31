@@ -42,13 +42,13 @@ h1 {
 }
 
 .sensor-name {
-   margin: 10px;
-   position: relative;
-   padding: 7px;
-   background: white;
-   bottom: 39px;
-   border: 2px solid #8a8a8a;
-   width: max-content;
+  margin: 10px;
+  position: relative;
+  padding: 7px;
+  background: white;
+  bottom: 39px;
+  border: 2px solid #8a8a8a;
+  width: max-content;
 }
 
 .sensor-varde{
