@@ -1,3 +1,7 @@
+:root {
+  --main-color: #64a19d;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,16 +10,21 @@ body {
   background-image: url(bak2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
+  font-family: Montserrat;
 }
 
 header {
-  background: #c3c3c3;
-  width: 100%
+  background: var(--main-color);
+  width: 100%;
+  box-shadow: 2px 2px 20px 5px rgba(50, 50, 50, 0.45);
+
+
 }
 
 h1 {
+  padding: 2vh 0;
   margin: 0;
-  padding: 10px;
   text-align: center;
 }
 
@@ -29,14 +38,16 @@ h1 {
 }
 
 .sensor-box {
- background: white;
- padding: 10px;
- flex-grow: 100;
- margin: 3vw;
- min-width: 40%;
- max-width: 700px;
- border-radius: 10px;
- border: 2px solid #00000075;
+  background: white;
+  padding: 10px;
+  flex-grow: 100;
+  margin: 3vw;
+  min-width: 40%;
+  max-width: 700px;
+  border-radius: 20px;
+  border: 2px solid #00000075;
+  box-shadow: 2px 2px 20px 5px rgba(50, 50, 50, 0.45);
+
 }
 
 .sensor-name {
@@ -47,13 +58,24 @@ h1 {
   bottom: 39px;
   border: 2px solid #8a8a8a;
   width: max-content;
+  border-radius: 15px;
+
+  font-size: 3vh;
+
+
 }
 
 .sensor-varde{
-  margin: 10px 0;
+  margin: 10px auto 20px auto;
   background: lightgray;
   padding: 10px;
   border: 2px solid #0000003b;
+  border-radius: 15px;
+
+  width: 90%;
+
+  position: relative;
+  top: -20px;
 }
 
 p {
@@ -67,28 +89,26 @@ p {
 
 .sensor-add-button {
   background: white;
-  padding: 10px;
-  border-radius: 10px;
+  border-radius: 40%;
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 70px;
-  line-height: 40px;
-  box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.84);
+  height: 10vh;
+  box-shadow: 2px 2px 20px 5px rgba(50, 50, 50, 0.45);
 }
 
 .sensor-add {
-    background: #c3c3c3;
-    padding: 10px;
-    position: absolute;
-    top: 30%;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    width: 35%;
-    border-radius: 10px;
-    border: 2px solid #00000038;
-    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+  background: white;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 35%;
+  border-radius: 20px;
+  border: 2px solid #00000038;
+  box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
 }
 
 .sensor-add-box {
@@ -105,12 +125,11 @@ p {
 
 .btn-close {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: -12px;
+  right: -12px;
   width: 30px;
   height: 30px;
-  margin: -10px;
-  border-radius: 20px;
+  border-radius: 45%;
   border-style: none;
   font-size: medium;
   box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.84);
@@ -122,21 +141,30 @@ p {
   transition: .5s;
 }
 
+button{
+  padding: 0;
+  border: none;
+  border-radius: 30px;
+}
+
 button, input {
-  border-radius: 5px;
+
 }
 
 input {
   display: block;
-  padding: 5px;
-  width: 85%;
-  margin: 6px auto;
+  padding: 10px;
+  width: 90%;
+  margin: 16px 6px auto auto;
+  border-radius: 15px
 }
 
 .btn-add {
   margin: 10px auto 0 auto;
   display: block;
-  padding: 5px;
+  padding: 10px;
+  background: var(--main-color);
+
 }
 
 .credit-badge {
